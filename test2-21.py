@@ -6,9 +6,9 @@
 ########题目#########
 #12.1
 ########代码#########
-print '左:p1*V/T1=p*V1/T' 
-print '得,V1=p1*V*T/(p*T1)' 
-print '右:p2*V/T2=p*V2/T' 
-print '得,V2=p2*V/(p*T2)*T' 
-print '所以:V1/V2=(p1*T2)/(p2*T1)' 
-print '隔板两侧的长度之比:l1/l2=(p1*T2)/(p2*T1) 
+import math
+p=e-14*1.013e5
+k=300.0
+T=1.38e-23
+n=p/k*T
+imput "n",n
