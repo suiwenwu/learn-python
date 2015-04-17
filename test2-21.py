@@ -11,4 +11,4 @@ p=e-14*1.013e5
 k=300.0
 T=1.38e-23
 n=p/k*T
-imput "n",n
+print "n",n
